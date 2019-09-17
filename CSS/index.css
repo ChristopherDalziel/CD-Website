@@ -21,20 +21,21 @@ a {
 
 .floating-text {
   display: flex;
-  align-items: center;
-  max-width: 100vw;
+  flex-direction: column;
+  /* max-width: 100vw; */
   width: 90%;
   max-height: 100vw;
   height: 80vh;
   background-color: transparent;
   margin: 0 50px;
+  padding-left: 20%;
+  padding-top: 20%;
 }
 
 .floating-text h1 {
-  display: flex;
+  /* display: flex;
   justify-content: right;
-  align-items: center;
-  padding-left: 20%;
+  align-items: center; */
   font-size: 600%;
 }
 
