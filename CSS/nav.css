@@ -1,17 +1,17 @@
-header {
-	width: 100%;
-}
-
 .container {
-	display: flex;
+	display:flex;
 	flex-direction: column;
-	height: 100vh;
-	margin: 0 auto;
+	margin-left:5vw;
+	margin-right:5vw;
+	background-color: transparent;
+	height:100vh;
+	align-content:stretch
 }
 
 nav {
-	margin: 0 50px;
 	padding-top: 8px;
+	height:10%;
+	width:100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,8 +19,9 @@ nav {
 	font-size: 14px;	
 }
 
-img {
-	width: 10rem;
+nav i {
+	color: white;
+	font-size: 70px;
 }
 
 nav ul {
