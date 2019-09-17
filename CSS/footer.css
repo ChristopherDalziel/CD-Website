@@ -24,4 +24,9 @@ footer li a {
 	position: relative;
   letter-spacing: 2px;
   font-size: 50px;
+  color: #493A37;
+}
+
+footer li a:hover {
+  color: #314226;
 }

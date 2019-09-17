@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "animation.css";
 @import "footer.css";
+@import "floating-text.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
@@ -19,25 +20,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
-}
-
-.floating-text {
-  height:80%;
-  display: flex;
-  flex-direction: column;
-  background-color: transparent;
-  padding-left: 20%;
-  padding-top: 25%;
-  color: white;
-}
-
-.floating-text h1 {
-  font-size: 6em;
-}
-
-.floating-text h3 {
-  font-size: 3em;
+	/* color: white; */
 }
 
 section{

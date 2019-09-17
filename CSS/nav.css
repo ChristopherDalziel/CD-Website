@@ -20,7 +20,7 @@ nav {
 }
 
 nav i {
-	color: white;
+	color:#493A37;
 	font-size: 70px;
 }
 
@@ -37,4 +37,10 @@ nav ul li a {
 	margin: 0 28px;
 	position: relative;
 	letter-spacing: 2px;
+	color:#493A37;
+}
+
+nav ul li a:hover {
+	color: white;
+	background: #314226;	
 }
