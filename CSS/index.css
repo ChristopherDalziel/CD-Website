@@ -14,7 +14,7 @@ html {
 
 body {
   /* background-color: black; */
-background: url(/Content/img.jpg);
+background: url(/Content/pls.jpg);
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ a {
   font-size: 3em;
 }
 
-section {
+.section {
   height:80%;
   width: 40%;
   display: flex;
