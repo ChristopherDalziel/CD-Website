@@ -1,2 +1,12 @@
+.container-blog {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #blog {
+  width: 75%;
+  border: 2px black solid;
+  padding: 10px;
 }

@@ -1,11 +1,13 @@
 .container-contact {
   display:flex;
-	flex-direction: column;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
 	/* margin-left:5vw; */
 	/* margin-right:5vw; */
 	background-color: transparent;
 	height:80%;
-  align-content:stretch;
+  /* align-content:stretch; */
 }
 
 #contact {
