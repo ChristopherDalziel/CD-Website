@@ -10,9 +10,9 @@
   float: left;
   height: 200px;
   color: white;
-  background-position: center; /* Forgot to mention in the tutorial, please add this line*/
-  background-repeat: no-repeat; /* Forgot to mention in the tutorial, please add this line*/
-  background-size: cover; /* Forgot to mention in the tutorial, please add this line*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.heading {
