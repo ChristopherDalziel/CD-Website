@@ -1,6 +1,4 @@
 .grid-container {
-  /* margin-left:5vw; */
-	/* margin-right:5vw; */
   height: 80%;
 }
 
@@ -22,6 +20,7 @@ a.heading {
   line-height: 200px;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   color: white;
   font-size: 24px;
   z-index: 1;
@@ -33,7 +32,7 @@ a.heading span {
   top: 65px;
   padding: 8px;
   border: 2px solid white;
-  background-color: rgba(103,9, 9, 0.4)
+  background-color: rgba(39, 26, 26, 0.4)
 }
 
 .details {
@@ -74,6 +73,15 @@ a.heading span {
   box-sizing: border-box;
   text-align: center;
   color: white;
+}
+
+.details p a {
+  color: white;
+  text-decoration: underline;
+}
+
+.details p a:hover {
+  color: red;
 }
 
 .grid:nth-child(3n+1) .details:before {

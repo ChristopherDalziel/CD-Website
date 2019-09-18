@@ -25,14 +25,28 @@ html {
 	align-content:stretch
 }
 
-#landing {
+#landing-background {
   background: url(/Content/Web_Final_Col.jpg);
 	background-size: cover;
 }
 
-#aboutme {
+#aboutme-background {
   background: url(/Content/Web_Final_Col.jpg);
   background-size: cover;
+}
+
+#blog-background {
+	background: url(/Content/Web_Background.png);
+	background-size: cover;
+}
+
+#contact-background {
+	background: url(/Content/Web_Background.png);
+	background-size: cover;
+}
+
+#portfolio-background {
+	background: url(/Content/Web_Background.png);
 }
 
 a {
