@@ -1,6 +1,6 @@
-.grid-contrainer {
-  margin-left:5vw;
-	margin-right:5vw;
+.grid-container {
+  /* margin-left:5vw; */
+	/* margin-right:5vw; */
   height: 80%;
 }
 
@@ -80,15 +80,12 @@ a.heading span {
   position: absolute;
   content: "";
   top: 0;
-  right: -10px;
+  left: -10px;
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-right: 10px solid #b72121;
-  transform: rotate(180deg);
 }
-
-
 
 .grid:nth-child(3n+2) .details:before {
   position: absolute;
@@ -105,11 +102,12 @@ a.heading span {
   position: absolute;
   content: "";
   top: 0;
-  left: -10px;
+  right: -10px;
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-right: 10px solid #b72121;
+  transform: rotate(180deg);
 }
 
 .grid:nth-child(3n+2) .details:target {
@@ -120,12 +118,12 @@ a.heading span {
 
 .grid:nth-child(3n+3) .details:target {
   opacity: 1;
-  left: 100%;
+  left: -100%;
   z-index: 99;
 }
 
 .grid:nth-child(3n+1) .details:target {
   opacity: 1;
-  left: -100%;
+  left: 100%;
   z-index: 99;
 }

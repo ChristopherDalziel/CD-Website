@@ -4,7 +4,7 @@
 	/* margin-left:5vw; */
 	/* margin-right:5vw; */
 	background-color: transparent;
-	height:100vh;
+	height:80vh;
   align-content:stretch;
 }
 
@@ -15,6 +15,7 @@
 
 form h3 {
   text-align: center;
+  color: #493A37;
 }
 
 form {
@@ -22,11 +23,11 @@ form {
 
 #contact fieldset input:focus {
   outline: 0;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #EF626B;
 }
 #contact textarea:focus {
   outline: 0;
-  border: 1px solid red;
+  border: 1px solid #EF626B;
 }
 
 
@@ -63,7 +64,7 @@ input {
   cursor: pointer;
   width: 100%;
   border: none;
-  background:black;
+  background:#A8B7AB;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -71,7 +72,7 @@ input {
 }
 
 #contact button[type="submit"]:hover {
-  background: red;
+  background: #EF626B;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;

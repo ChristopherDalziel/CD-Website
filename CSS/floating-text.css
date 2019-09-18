@@ -4,8 +4,11 @@
   flex-direction: column;
   background-color: transparent;
   padding-left: 20%;
-  padding-top: 25%;
+  /* padding-top: 25%; */
   color: #493A37;
+  position: relative;
+  /* left: 18%; */
+  top: 35%;
 }
 
 .floating-text h1 {

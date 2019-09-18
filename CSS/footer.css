@@ -1,6 +1,6 @@
 .foot-c {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   max-width: 100vw;
   height:10%;
   width:100%;
@@ -27,6 +27,13 @@ footer li a {
   color: #493A37;
 }
 
+/* footer li a:hover {
+  color: #A8B7AB;
+} */
+
 footer li a:hover {
-  color: #314226;
+  color: #A8B7AB;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }

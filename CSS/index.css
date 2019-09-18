@@ -14,6 +14,15 @@
 
 html {
 }
+.container {
+	display:flex;
+	flex-direction: column;
+	margin-left:5vw;
+	margin-right:5vw;
+	background-color: transparent;
+	height:100vh;
+	align-content:stretch
+}
 
 #landing {
   background: url(/Content/Web_Final_Col.jpg);
