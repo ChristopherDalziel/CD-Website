@@ -1,14 +1,15 @@
 .floating-text {
-  height:80%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   background-color: transparent;
-  padding-left: 20%;
-  /* padding-top: 25%; */
+  margin-left: 20%;
+  /* margin-top: 25%; */
+  margin-top: 25%;
+  /* margin-bottom: -32.87%; */
   color: #493A37;
-  position: relative;
+  /* position: relative; */
   /* left: 18%; */
-  top: 35%;
 }
 
 .floating-text h1 {
@@ -18,3 +19,6 @@
 .floating-text h3 {
   font-size: 3em;
 }
+
+/* 624.81 */
+/* 657.08 */

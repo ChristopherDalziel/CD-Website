@@ -4,6 +4,7 @@
 @import "floating-text.css";
 @import "portfolio-grid.css";
 @import "contact-form.css";
+@import "blog.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
@@ -26,7 +27,7 @@ html {
 
 #landing {
   background: url(/Content/Web_Final_Col.jpg);
-  background-size: cover;
+	background-size: cover;
 }
 
 #aboutme {
@@ -39,7 +40,7 @@ a {
 	/* color: white; */
 }
 
-section{
-  height: 80%;
+section {
+  height: 80vh;
   width: 30%
 }
