@@ -1,5 +1,25 @@
-@media only screen and (max-width: 500px) and (min-width: 0px) {
+@media only screen and (min-width: 500px) {
   #landing-background {
-    background: none;
+    background: url(/Content/Web_Final_Col.jpg);
+    background-size: cover;
   }
+
+  /* #aboutme-background {
+    background: url(/Content/Web_Final_Col.jpg);
+    background-size: cover;
+  } */
+
+  /* #blog-background {
+    background: url(/Content/Web_Background.png);
+    background-size: cover;
+  }
+  
+  #contact-background {
+    background: url(/Content/Web_Background.png);
+    background-size: cover;
+  }
+  
+  #portfolio-background {
+    background: url(/Content/Web_Background.png);
+  } */
 }

@@ -16,6 +16,7 @@
 
 html {
 }
+
 .container {
 	display:flex;
 	flex-direction: column;
@@ -26,11 +27,11 @@ html {
 	align-content:stretch
 }
 
-#landing-background {
+/* #landing-background {
   background: url(/Content/Web_Final_Col.jpg);
 	background-size: cover;
-	/* background-repeat: no-repeat; */
-}
+	background-repeat: no-repeat;
+} */
 
 #aboutme-background {
   background: url(/Content/Web_Final_Col.jpg);
