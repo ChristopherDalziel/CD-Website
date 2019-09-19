@@ -118,7 +118,7 @@
   }
 
   .floating-text h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   #aboutme-background {
@@ -164,7 +164,6 @@
 }
 
 #main-page i {
-  /* color: rgba(44, 38, 38, 0.3); */
   color: #493A37;
 }
 
@@ -189,7 +188,7 @@
 }
 
 #main-page label {
-	font-size: 45px;
+	font-size: 50px;
 }
 
 input#menu {
