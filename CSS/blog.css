@@ -18,5 +18,6 @@
 }
 
 #blog img {
-  /* float: right; */
+  height: 400px;
+  width: auto;
 }

@@ -89,9 +89,14 @@
   }
 
   #blog {
-    width: 100%;
+    width: 95%;
     border: none;
     border-top: 1px solid black;
+  }
+
+  #blog img {
+    width: 330px;
+    height: auto;
   }
 
   #foot-mob {
@@ -127,6 +132,7 @@
 #main-page label {
 	font-size: 45px;
 }
+
 input#menu {
 	display: none;
 }
