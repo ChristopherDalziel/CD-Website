@@ -43,10 +43,10 @@
   }
   
   .grid-container {
-    width: 100%;
   }
 
   .grid {
+    height: 190px;
   }
 
   a.heading {
@@ -55,10 +55,16 @@
 
   a.heading span {
     font-size: 90%;
+    top: 0;
+    padding: 0;
   }
 
   .details {
-    font-size: 55%;
+    font-size: 45%;
   }
+
+  /* .div.grid {
+    display: none;
+  } */
 
 }
