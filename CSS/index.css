@@ -5,6 +5,7 @@
 @import "portfolio-grid.css";
 @import "contact-form.css";
 @import "blog.css";
+@import "media.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
@@ -28,6 +29,7 @@ html {
 #landing-background {
   background: url(/Content/Web_Final_Col.jpg);
 	background-size: cover;
+	/* background-repeat: no-repeat; */
 }
 
 #aboutme-background {
