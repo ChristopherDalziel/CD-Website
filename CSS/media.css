@@ -78,22 +78,22 @@
     border-top: 1px solid black;
   }
 
-  .foot-c {
+  #foot-mob {
     margin-bottom: 80px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
   nav {
   }
 
   nav ul li a {
-    background-color: #A8B7AB;
-    color: white;
+    text-shadow: .5px .5px .5px #EEE9E4;
+    color: #493A37;
   }
   
   nav ul li a:hover {
-    color: #493A37;
+    color: white;
     background: #white; 
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
