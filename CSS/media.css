@@ -33,7 +33,7 @@
 
   nav ul li a {
     margin: 10px;
-    text-shadow: 10px 10px 10px #EEE9E4;
+    text-shadow: 1px 1px 1px #EEE9E4;
     color: #493A37;
   }
 
@@ -50,11 +50,11 @@
   }
   .floating-text h1 {
     margin-top: 80%;
-    font-size: 75px;
+    font-size: 60px;
   }
 
   .floating-text h3 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   #aboutme-background {
