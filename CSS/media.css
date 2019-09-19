@@ -43,19 +43,22 @@
   }
   
   .grid-container {
-
+    width: 100%;
   }
 
   .grid {
-
   }
 
   a.heading {
-    font-size: 15px;
+    font-size: 80%;
+  }
+
+  a.heading span {
+    font-size: 90%;
   }
 
   .details {
-    font-size: 60%;
+    font-size: 55%;
   }
 
 }
