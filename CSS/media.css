@@ -36,17 +36,17 @@
   nav {
     justify-content: space-evenly;
     justify-items: center;
-    font-size: 15tpx;
+    font-size: 15px;
     margin: 0;
   }
 
-  nav ul li a {
+  /* nav ul li a {
     margin: 10px;
     background: rgba(238, 233, 228, 0.3);
     /* text-shadow: 100px 100px 100px #EEE9E4; */
     color: #493A37;
     
-  }
+  } */
 
   nav ul li a:hover {
     color: white;
