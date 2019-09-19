@@ -27,13 +27,13 @@
   nav {
     justify-content: space-evenly;
     justify-items: center;
-    font-size: 15px;
+    font-size: 15tpx;
     margin: 0;
   }
 
   nav ul li a {
     margin: 10px;
-    text-shadow: .5px .5px .5px #EEE9E4;
+    text-shadow: 10px 10px 10px #EEE9E4;
     color: #493A37;
   }
 
