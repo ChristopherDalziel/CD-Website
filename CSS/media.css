@@ -50,9 +50,6 @@
     width: 100%;
     overflow: auto;
   }
-  
-  .grid-container {
-  }
 
   .grid {
     height: 190px;
@@ -69,7 +66,7 @@
   }
 
   .details {
-    font-size: 45%;
+    font-size: 40 %;
   }
 
   #blog {
