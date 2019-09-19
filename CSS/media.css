@@ -14,6 +14,11 @@
 
 @media only screen and (max-width: 600px) {
   
+  .container {
+    min-height: -webkit-fill-available;
+    min-height: fill-available;
+  }
+
   #landing-background {
     background: url(/Content/Web_Background.png);
   }
@@ -21,7 +26,7 @@
   nav {
     justify-content: space-evenly;
     justify-items: center;
-    font-size: 8px;
+    font-size: 10px;
     margin: 0;
   }
 
@@ -30,10 +35,10 @@
   }
 
   .floating-text {
-    margin: 0;
+    margin:0;
   }
   .floating-text h1 {
-    margin: 0;
+    margin-top: 60%;
   }
 
   #aboutme-background {
@@ -67,8 +72,32 @@
     font-size: 45%;
   }
 
-  /* .div.grid {
-    display: none;
-  } */
+  #blog {
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+  }
+
+  .foot-c {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+  }
+
+  nav ul li a {
+    background-color: #A8B7AB;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: #493A37;
+    background: #white; 
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
 
 }
