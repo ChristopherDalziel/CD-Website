@@ -33,6 +33,16 @@
 
   nav ul li a {
     margin: 10px;
+    text-shadow: .5px .5px .5px #EEE9E4;
+    color: #493A37;
+  }
+
+  nav ul li a:hover {
+    color: white;
+    background: #white; 
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
   }
 
   .floating-text {
