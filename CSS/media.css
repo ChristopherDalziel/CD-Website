@@ -33,8 +33,10 @@
 
   nav ul li a {
     margin: 10px;
-    text-shadow: 1px 1px 1px #EEE9E4;
+    background: rgba(238, 233, 228, 0.3);s
+    /* text-shadow: 100px 100px 100px #EEE9E4; */
     color: #493A37;
+    
   }
 
   nav ul li a:hover {
@@ -100,10 +102,10 @@
   nav {
   }
 
-  nav ul li a {
+  /* nav ul li a {
     text-shadow: .5px .5px .5px #EEE9E4;
     color: #493A37;
-  }
+  } */
   
   nav ul li a:hover {
     color: white;
