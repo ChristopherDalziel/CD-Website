@@ -48,6 +48,12 @@
     font-size: 12px;
   }
 
+  #about {
+    height: 80%;
+    width: 50%;
+    overflow: auto;
+  }
+
 }
 
 @media only screen and (max-width: 850px) {
