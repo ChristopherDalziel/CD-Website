@@ -19,12 +19,14 @@
   }
 
   nav {
+    justify-content: space-evenly;
+    justify-items: center;
     font-size: 8px;
     margin: 0;
   }
 
-  nav.fas fa-barcode {
-    display: none;
+  nav ul li a {
+    margin: 10px;
   }
 
   .floating-text {
