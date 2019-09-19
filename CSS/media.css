@@ -20,6 +20,10 @@
     align-items: flex-start;
   }
 
+  nav i {
+    display: none;
+  }
+
   .floating-text {
     margin-top: 200px;
   }
