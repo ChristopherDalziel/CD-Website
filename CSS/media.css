@@ -13,6 +13,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  
+  #landing-background {
+    background: url(/Content/Web_Background.png);
+  }
 
   nav {
     font-size: 8px;
@@ -27,4 +31,31 @@
   .floating-text {
     margin-top: 200px;
   }
+
+  #aboutme-background {
+    background: url(/Content/Web_Background.png);
+  }
+
+  #about {
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .grid-container {
+
+  }
+
+  .grid {
+
+  }
+
+  a.heading {
+    font-size: 15px;
+  }
+
+  .details {
+    font-size: 60%;
+  }
+
 }
