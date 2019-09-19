@@ -15,8 +15,7 @@
 @media only screen and (max-width: 600px) {
   
   .container {
-    width: 600px;
-    /* height:; */
+    margin: 0;
   }
 
   nav {
