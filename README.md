@@ -6,11 +6,21 @@ I wanted to build something that was mininalistic from a design stand point that
 My home page is the first display of 3 of my components my Navigation bar, my Navigation drop down menu (Mobile only below 600px) and my footer. <br><br>
 My about me page, follows suit massive high impact image, bold text and a matching annimation.<br><br>
 My portfolio page is a showcase of my past, present and future, displaying my 4th component a section of grids to make up a fully animated functioning portfolio page, keeping with my minimalistic themes shows a set of images and headings (if desired) and upon clicking slides to the side to reval further details, this page was designed to me functional in the future I can relay my grids to have more or less sections, or even display multiple different grids for different areas of my work. <br><br>
+Blogs a blog page is designed to display information to the user in a simple and easy to read manaer, here I used flexbox to align everything smoothly, I kept my 100vh and added a scroll when the blog vertically overflowed so we will be able to continue scrolling no matter how many blog posts are added.<br><br>
+For my last page and last component I had a a contact page/form upon the page load you're automatically entered into the type field, and it's highlighted by a pastle red underline which is a theme throughout the page (and the entire website in different ways), I have linked this form with [Formspree](https://formspree.io) which is a thirdparty website (inputed into the CSS) which will forward to email directly into my personal inbox. <br><br>
+My responsive design had to start at a higher point than mobiles to accomodate even smaller laptop screens, then tablets and of course mobile. I achieved this with a series of font size changes, as well as background changes and a drop down navigation menu at the smallest size. This website is designed to work on every platform.<br><br>
+
+Flexbox design, my entire website is designed around 100vh, on every page, the website is held together by an overlaying container using flex box, the center is a calculation of all the exterior compondents, this is the reasoning for the blog overflow it was important to me to keep my impact that my Navigation bar and my footer was consistently in line.<br><br>
+
+All images on the webpage (exlcuding the R U Ok? day logo) are my own, photographed and edited by myself. <br>
+Icon's were obtained via [Font Awesome](https://fontawesome.com/)<br>
+Fonts obtained via [Google Fonts](https://fonts.google.com/)
+
 
 # Links
-Deployed Webpage: christopherdalziel.com
+Deployed Webpage: http://www.christopherdalziel.com
 <br>
-Github Repository: github.com/ChristopherDalziel/CD-Website
+Github Repository: http://www.github.com/ChristopherDalziel/CD-Website
 
 # Sitemap 
 ![Alt text](/Docs/Sitemap-ChristopherDalziel.jpg "Optional Title")
@@ -60,7 +70,7 @@ I ran into some issues with the menu display at mobile output (600px) where the 
 ![Alt text](/Docs/mobile-home.jpeg "Optional Title")
 
 # Colour Pallet
-Colour pallet was super important to keep a steady flow through the website, after selecting my home page image I wanted everything to be colourized with respect to it. The brown selection of my pallet is actually my hair colour from the background image. I knew I wanted a green and a red, staying with the pastel theme but still having some impact, I used a randomized pallet website to scroll through a bunch of different colours until I found some sets that I liked.
+It was super important to me to keep a steady flow through the website, after selecting my home page image I wanted everything to be colourized with respect to it. The brown selection of my pallet is actually my hair colour from the background image. I knew I wanted a green and a red, staying with the pastel theme but still having some impact, I used a randomized pallet website to scroll through a bunch of different colours until I found some sets that I liked.
 ![Alt text](/Docs/Colour_P.jpg "Optional Title")
 
 # Inspiration
