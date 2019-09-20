@@ -56,7 +56,7 @@ I ran into some issues with the menu display at mobile output (600px) where the 
 ### Wireframe
 ![Alt text](/Docs/mobile-home-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/mobile-home.png "Optional Title")
+![Alt text](/Docs/mobile-home.jpeg "Optional Title")
 
 # Colour Pallet
 Colour pallet was super important to keep a steady flow through the website, after selecting my home page image I wanted everything to be colourized with respect to it. The brown selection of my pallet is actually my hair colour from the background image. I knew I wanted a green and a red, staying with the pastel theme but still having some impact, I used a randomized pallet website to scroll through a bunch of different colours until I found some sets that I liked.
