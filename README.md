@@ -51,12 +51,19 @@ A basic contact me page upon loading the page your instantly placed in the typin
 ### Final
 ![Alt text](/Docs/contact.png "Optional Title")
 
+## Mobile home page
+I ran into some issues with the menu display at mobile output (600px) where the font was crashing into the background image and it became hard to read, I decided to go for a drop down menu on the home screen so I coould continue to have an impactful home screen and a menu that functioned correctly and was visable to the user.
+### Wireframe
+![Alt text](/Docs/mobile-home-page.png "Optional Title")
+### Final
+![Alt text](/Docs/mobile-home.png "Optional Title")
+
 # Colour Pallet
 Colour pallet was super important to keep a steady flow through the website, after selecting my home page image I wanted everything to be colourized with respect to it. The brown selection of my pallet is actually my hair colour from the background image. I knew I wanted a green and a red, staying with the pastel theme but still having some impact, I used a randomized pallet website to scroll through a bunch of different colours until I found some sets that I liked.
 ![Alt text](/Docs/Colour_P.jpg "Optional Title")
 
 # Inspiration
-A selection of dribble pages I liked which helped lead me into styling idea's
+A selection of dribble pages I liked which helped lead me to styling idea's
 ![Alt text](/Docs/dribble-inspo.jpg "Optional Title")
 
 # Tech Stack
