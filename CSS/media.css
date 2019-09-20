@@ -1,3 +1,4 @@
+/* For screens above 600px show these backgrounds and remove collapsible menu */
 @media only screen and (min-width: 600px) {
 
   #landing-background {
@@ -16,22 +17,24 @@
 
 }
 
+/* Adding shadow to standard normal bar to make sure it isn't hidden in the background when on smaller screens that creates overlap */
 @media only screen and (max-width: 1400px) {
-  
+
   nav ul li a {
     text-shadow: .5px .5px .5px #EEE9E4;
     color: #493A37;
   }
-  
+
   nav ul li a:hover {
     color: white;
-    background: #white; 
+    background: #white;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
 }
 
+/* Controlling overflow of text and images and blog, portfolio and about pages */
 @media only screen and (max-width: 1125px) {
   #blog {
     width: 95%;
@@ -56,14 +59,12 @@
 
 }
 
+/* Tablet/Small laptop screen sizes */
+/* Controlling overflow on portfolio page and about page */
 @media only screen and (max-width: 850px) {
-  
+
   a.heading {
     font-size: 90%;
-  }
-
-  a.heading span {
-    /* font-size: 90%; */
   }
 
   .details {
@@ -77,17 +78,22 @@
   }
 }
 
+/* Mobile screen size */
+/* Detailed descriptions below */
 @media only screen and (max-width: 600px) {
-  
- #small {
+
+  /* Hiding my base nav bar inplace of my mobile nav  */
+  #hide-std-menu {
     display: none;
   }
 
+  /* Background image change for mobile screen */
   #landing-background {
     background: url(/Content/Web_Final_Col_Mob.jpg);
     background-size: cover;
   }
 
+  /* Navigation bar changes for pages other than index.html */
   nav {
     justify-content: space-evenly;
     justify-items: center;
@@ -96,41 +102,46 @@
 
   nav ul li a {
     margin: 10px;
-    /* background: rgba(238, 233, 228, 0.3);
-    text-shadow: 100px 100px 100px #EEE9E4; */
     color: #493A37;
   }
 
   nav ul li a:hover {
     color: white;
-    background: white; 
+    background: white;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
 
+  /* Removal of margin on floating text changing it's hover location */
   .floating-text {
-    margin:0;
+    margin: 0;
   }
+
+  /* Font size for floating text and new positioning */
   .floating-text h1 {
     margin-top: 60%;
     font-size: 60px;
   }
 
+  /* Font size for floating text h3 */
   .floating-text h3 {
     font-size: 25px;
   }
 
+  /* Background image change for mobile on about me page */
   #aboutme-background {
     background: url(/Content/Web_Background.png);
   }
 
+  /* Handing text overflow on about me page */
   #about {
     height: 80%;
     width: 100%;
     overflow: auto;
   }
 
+  /* Handing grid size and text overflow on portfolio page */
   .grid {
     height: 190px;
   }
@@ -147,6 +158,7 @@
     font-size: 7px;
   }
 
+  /* Handing text and image overflow on blog page */
   #blog {
     width: 95%;
     border: none;
@@ -158,50 +170,9 @@
     height: auto;
   }
 
+  /* Raising footer on certain pages to be visable instead of been hidden under buttons that are typically displayed on mobiles */
   #foot-mob {
     margin-bottom: 80px;
   }
-}
-
-#main-page i {
-  color: #493A37;
-}
-
-#main-page i:hover {
-  color: #A8B7AB;
-  -webkit-transition: color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-}
-
-#main-page ul li a {
-	letter-spacing: 2px;
-	color:#493A37;
-}
-
-#main-page ul li a:hover {
-	color: white;
-	background: #A8B7AB; 
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#main-page label {
-	font-size: 50px;
-}
-
-input#menu {
-	display: none;
-}
-
-.menu-content {
-	max-width: 0;
-	overflow: hidden;
-}
-
-input:checked ~ .menu-content {
-	max-width: 100%;
-}
-
+  
 }

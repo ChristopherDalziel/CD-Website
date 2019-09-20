@@ -1,3 +1,4 @@
+/* Imports of other style sheets */
 @import "nav.css";
 @import "animation.css";
 @import "footer.css";
@@ -6,38 +7,30 @@
 @import "contact-form.css";
 @import "blog.css";
 @import "media.css";
+@import "mobile-nav.css";
+
+/* Font import */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+/* Removal of all padding and margin + font applied to all */
 * {
 	margin: 0;
-  padding: 0;
-  font-family:'Open Sans', sans-serif;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
-html {
-}
-
+/* Overall container parent for every page */
 .container {
-	display:flex;
+	display: flex;
 	flex-direction: column;
-	margin-left:5vw;
-	margin-right:5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
 	background-color: transparent;
-	height:100vh;
-	align-content:stretch
+	height: 100vh;
+	align-content: stretch
 }
 
-/* #landing-background {
-  background: url(/Content/Web_Final_Col.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-} */
-
-/* #aboutme-background {
-  background: url(/Content/Web_Final_Col.jpg);
-  background-size: cover;
-} */
-
+/* background images (more background images located in media.css for different screen sizes) */
 #blog-background {
 	background: url(/Content/Web_Background.png);
 	background-size: cover;
@@ -54,10 +47,10 @@ html {
 
 a {
 	text-decoration: none;
-	/* color: white; */
 }
 
+/* Section height/width */
 section {
-  height: 80%;
-  width: 30%
+	height: 80%;
+	width: 30%
 }

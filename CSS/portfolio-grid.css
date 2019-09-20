@@ -2,17 +2,19 @@
   height: 80%;
 }
 
+/* Individual box location and sizing, prevents background images repeating when screen size increases */
 .grid {
   position: relative;
   width: 33.33%;
   float: left;
-  height: 210px;
+  height: 200px;
   color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* Headings ontop of individual boxes position, size font style and size */
 a.heading {
   position: absolute;
   width: 100%;
@@ -24,9 +26,9 @@ a.heading {
   color: white;
   font-size: 24px;
   z-index: 1;
-  border: 1 px solid white;
 }
 
+/* Headings ontop of individual boxes further position, background colour/transparency */
 a.heading span {
   position: relative;
   top: 65px;
@@ -35,6 +37,7 @@ a.heading span {
   background-color: rgba(39, 26, 26, 0.4)
 }
 
+/* Headings ontop of individual boxes when hovered ease in colour border */
 a.heading span:hover {
   border: 2px solid #a8b7ab;
   -webkit-transition: border 0.3s ease-in-out;
@@ -42,6 +45,7 @@ a.heading span:hover {
   transition: border 0.3s ease-in-out;
 }
 
+/* Details slide font size/text align, opacity, transition, location, background colour  */
 .details {
   position: absolute;
   width: 100%;
@@ -61,6 +65,7 @@ a.heading span:hover {
   -ms-transition: all 500ms ease-in-out;
 }
 
+/* X (Close) button colour, location */
 .details a.close {
   display: block;
   color: white;
@@ -69,11 +74,13 @@ a.heading span:hover {
   text-align: right;
 }
 
+/* Heading inside the details slide - font color and location */
 .details h2 {
   color: white;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
+/* Content within details slide - location, sizing and font colour */
 .details p {
   margin-top: 0px;
   padding: 20px 15px;
@@ -82,11 +89,13 @@ a.heading span:hover {
   color: white;
 }
 
+/* Links within the details slide - colour and underlined */
 .details p a {
   color: white;
   text-decoration: underline;
 }
 
+/* When hovering a link within the details slide ease in colour */
 .details p a:hover {
   color: #EF626B;
   -webkit-transition: color 0.3s ease-in-out;
@@ -94,6 +103,7 @@ a.heading span:hover {
   transition: color 0.3s ease-in-out;
 }
 
+/* Control for on-click movement of individual slides, group'd in columns */
 .grid:nth-child(3n+1) .details:before {
   position: absolute;
   content: "";
@@ -102,7 +112,7 @@ a.heading span:hover {
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #b72121;
+  border-right: 10px solid #EF626B;
 }
 
 .grid:nth-child(3n+2) .details:before {
@@ -113,7 +123,7 @@ a.heading span:hover {
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #b72121;
+  border-right: 10px solid #EF626B;
 }
 
 .grid:nth-child(3n+3) .details:before {
@@ -124,7 +134,7 @@ a.heading span:hover {
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #b72121;
+  border-right: 10px solid #EF626B;
   transform: rotate(180deg);
 }
 
@@ -145,141 +155,3 @@ a.heading span:hover {
   left: 100%;
   z-index: 99;
 }
-
-/* .grid-container-2 {
-  height: 80%;
-}
-
-.grid-2 {
-  position: relative;
-  width: 33.33%;
-  float: left;
-  height: 200px;
-  color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-a.heading-2 {
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 24px;
-  z-index: 1;
-  border: 1 px solid white;
-}
-
-a.heading-2 span {
-  position: relative;
-  top: 65px;
-  padding: 8px;
-  border: 2px solid white;
-  background-color: rgba(39, 26, 26, 0.4)
-}
-
-.details-2 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-size: 15px;
-  opacity: 0;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  transition: all 500ms ease-in-out;
-  --webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-}
-
-.details-2 a.close {
-  display: block;
-  color: white;
-  margin-right: 15px;
-  margin-top: 5px;
-  text-align: right;
-}
-
-.details-2 h2 {
-  color: white;
-  margin-top: 5px;
-}
-
-.details-2 p {
-  margin-top: 0px;
-  padding: 20px 15px;
-  box-sizing: border-box;
-  text-align: center;
-  color: white;
-}
-
-.details-2 p a {
-  color: white;
-  text-decoration: underline;
-}
-
-.details-2 p a:hover {
-  color: red;
-}
-
-.grid-2:nth-child(3n+1) .details-2:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: -10px;
-  width: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #b72121;
-}
-
-.grid-2:nth-child(3n+2) .details-2:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: -10px;
-  width: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #b72121;
-}
-
-.grid-2:nth-child(3n+3) .details-2:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: -10px;
-  width: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #b72121;
-  transform: rotate(180deg);
-}
-
-.grid-2:nth-child(3n+2) .details-2:target {
-  opacity: 1;
-  left: 100%;
-  z-index: 99;
-}
-
-.grid-2:nth-child(3n+3) .details-2:target {
-  opacity: 1;
-  left: -100%;
-  z-index: 99;
-}
-
-.grid-2:nth-child(3n+1) .details-2:target {
-  opacity: 1;
-  left: 100%;
-  z-index: 99;
-} */
