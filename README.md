@@ -1,10 +1,11 @@
-# Purpose
-I've build this website as a resume, a port folio of my previous, current and future work. Intended for my future employeer to be able to easily access my body of work in an enviroment I purposefully built to display it. <br>
-I wanted to build something that was mininalistic from a design and functionality stand point but still have a strong impact. I think the home (landing) screen has a big impact in your face right there that insites you to discover the rest of the web page. <br>
-The other beneift of having such a minimalistic home screen is that it's really simple to build a completely different feeling website around it by changing out the personal image to a colour, patter or a different style of image will be a completely different feel. 
+# Purpose and Target Audience
+I've build this website as a resume, a port folio of my previous, current and future work. Intended to showcase my work to potentional future employers in an enviroment I purposefully built to display it.  
 
-Purpose
-This site was designed to show case my work to potential employers or clients looking to utilise my services and skills as a Fullstack Web Developer.
+# Functionality and Features
+I wanted to build something that was mininalistic from a design stand point that would still have a strong impact. A home page is designed to draw the user in, to make an impact, to make the user click the next link. I hoped to achieve this with a large image, bold text, simple fade animation effects and an intentional lack of information. <br><br>
+My home page is the first display of 3 of my components my Navigation bar, my Navigation drop down menu (Mobile only below 600px) and my footer. <br><br>
+My about me page, follows suit massive high impact image, bold text and a matching annimation.<br><br>
+My portfolio page is a showcase of my past, present and future, displaying my 4th component a section of grids to make up a fully animated functioning portfolio page, keeping with my minimalistic themes shows a set of images and headings (if desired) and upon clicking slides to the side to reval further details, this page was designed to me functional in the future I can relay my grids to have more or less sections, or even display multiple different grids for different areas of my work. <br><br>
 
 # Links
 Deployed Webpage: christopherdalziel.com
