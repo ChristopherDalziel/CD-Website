@@ -4,11 +4,13 @@ I've built this website as a resume, a port folio of my previous, current and fu
 # Functionality and Features
 I wanted to build something that was minimalistic from a design stand point that would still have a strong impact. A home page is designed to draw the user in, to make an impact, to make the user click the next link. I hoped to achieve this with a large image, bold text, simple fade animation effects and an intentional lack of information. <br><br>
 My home page is the first display of 3 of my components my Navigation bar, my Navigation drop down menu (Mobile only below 600px) and my footer. <br><br>
-My about me page, follows suit massive high impact image, bold text and a matching annimation.<br><br>
+My about me page, follows suit massive high impact image, bold text and a matching animation.<br><br>
 My portfolio page is a showcase of my past, present and future, displaying my 4th component a section of grids to make up a fully animated functioning portfolio page, keeping with my minimalistic themes shows a set of images and headings (if desired) and upon clicking slides to the side to reveal further details, this page was designed to me functional in the future I can relay my grids to have more or less sections, or even display multiple different grids for different areas of my work. <br><br>
 Blogs a blog page is designed to display information to the user in a simple and easy to read manner, here I used flexbox to align everything smoothly, I kept my 100vh and added a scroll when the blog vertically overflowed so we will be able to continue scrolling no matter how many blog posts are added.<br><br>
 For my last page and last component I had a a contact page/form upon the page load you're automatically entered into the type field, and it's highlighted by a pastel  red underline which is a theme throughout the page (and the entire website in different ways), I have linked this form with [Formspree](https://formspree.io) which is a third-party website (inputted into the CSS) which will forward to email directly into my personal inbox. <br><br>
 My responsive design had to start at a higher point than mobiles to accommodate even smaller laptop screens, then tablets and of course mobile. I achieved this with a series of font size changes, as well as background changes and a drop down navigation menu at the smallest size. This website is designed to work on every platform.<br><br>
+My branches create a different experience for my webpage the first branch is greyscale with a new colour pallet! This was one of my initial ideas for my website but I decied I wanted to stay with colour because it gave me more options and had more impact but it was cool to be able to create it as another page. <br>
+My second branch is a simple font change, which again creates a completely different feel from the bold font.<br><br>
 
 Flexbox design, my entire website is designed around 100vh, on every page, the website is held together by an overlaying container using flex box, the centre is a calculation of all the exterior components, this is the reasoning for the blog overflow it was important to me to keep my impact that my Navigation bar and my footer was consistently in line.<br><br>
 
@@ -63,7 +65,8 @@ A basic contact me page upon loading the page your instantly placed in the typin
 ![Alt text](/Docs/contact.png "Optional Title")
 
 ## Mobile home page
-I ran into some issues with the menu display at mobile output (600px) where the font was crashing into the background image and it became hard to read, I decided to go for a drop down menu on the home screen so I coould continue to have an impactful home screen and a menu that functioned correctly and was visable to the user.
+To compensate for a smaller screen size on mobiles (600px) I decided to add a drop down menu instead of my normal navigation menu (only on the home screen) to no distort any image that was placed on the background and not risk the user not been able to effectively read or access the menu. On screen sizes larger than this I effectively used a text shadow on the links, but this was ineffective on a mobile screen as it appeared almost invisible to the user.
+
 ### Wireframe
 ![Alt text](/Docs/mobile-home-page.png "Optional Title")
 ### Final
