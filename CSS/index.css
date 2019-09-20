@@ -32,17 +32,17 @@
 
 /* background images (more background images located in media.css for different screen sizes) */
 #blog-background {
-	background: url(/Content/Web_Background.png);
+	background: url(/Content/Web_Background_BW.jpg);
 	background-size: cover;
 }
 
 #contact-background {
-	background: url(/Content/Web_Background.png);
+	background: url(/Content/Web_Background_BW.jpg);
 	background-size: cover;
 }
 
 #portfolio-background {
-	background: url(/Content/Web_Background.png);
+	background: url(/Content/Web_Background_BW.jpg);
 }
 
 a {

@@ -14,7 +14,7 @@
 /* Page heading location and colour */
 form h1 {
   text-align: center;
-  color: #493A37;
+  color: black;
 }
 
 /* When inputting into fieldsets have a bottom border and it's colour */
@@ -66,8 +66,8 @@ input {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #A8B7AB;
-  color: #FFF;
+  background:black;
+  color: white;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;

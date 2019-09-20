@@ -27,12 +27,12 @@ footer li a {
   position: relative;
   letter-spacing: 2px;
   font-size: 50px;
-  color: #493A37;
+  color: black;
 }
 
 /* Footer on hover effect change colour ease */
 footer li a:hover {
-  color: #A8B7AB;
+  color: #EF626B;
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;

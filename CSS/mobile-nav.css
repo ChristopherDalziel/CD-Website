@@ -2,12 +2,12 @@
 
 /* Colour of navigation bar button */
 #mobile-nav i {
-  color: #493A37;
+  color: black;
 }
 
 /* Hover ease in/out effect on button */
 #mobile-nav i:hover {
-  color: #A8B7AB;
+  color: white;
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
@@ -16,13 +16,13 @@
 /* Letter spacing of links and colour */
 #mobile-nav ul li a {
   letter-spacing: 2px;
-  color: #493A37;
+  color: black;
 }
 
 /* Hover ease in/out effect on links */
 #mobile-nav ul li a:hover {
   color: white;
-  background: #A8B7AB;
+  background: black;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;

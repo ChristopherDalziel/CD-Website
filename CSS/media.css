@@ -2,12 +2,12 @@
 @media only screen and (min-width: 600px) {
 
   #landing-background {
-    background: url(/Content/Web_Final_Col.jpg);
+    background: url(/Content/Web_Final.jpg);
     background-size: cover;
   }
 
   #aboutme-background {
-    background: url(/Content/Web_Final_Col.jpg);
+    background: url(/Content/Web_Final.jpg);
     background-size: cover;
   }
 
@@ -21,13 +21,12 @@
 @media only screen and (max-width: 1400px) {
 
   nav ul li a {
-    text-shadow: .5px .5px .5px #EEE9E4;
-    color: #493A37;
+    text-shadow: .5px .5px .5px white;
+    color: black;
   }
 
   nav ul li a:hover {
     color: white;
-    background: #white;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -89,7 +88,7 @@
 
   /* Background image change for mobile screen */
   #landing-background {
-    background: url(/Content/Web_Final_Col_Mob.jpg);
+    background: url(/Content/Web_Final_Col_Mob_BW.jpg);
     background-size: cover;
   }
 
@@ -102,12 +101,12 @@
 
   nav ul li a {
     margin: 10px;
-    color: #493A37;
+    color: black;
   }
 
   nav ul li a:hover {
     color: white;
-    background: white;
+    background: black;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -131,7 +130,7 @@
 
   /* Background image change for mobile on about me page */
   #aboutme-background {
-    background: url(/Content/Web_Background.png);
+    background: url(/Content/Web_Background_BW.jpg);
   }
 
   /* Handing text overflow on about me page */
@@ -174,5 +173,5 @@
   #foot-mob {
     margin-bottom: 80px;
   }
-  
+
 }

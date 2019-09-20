@@ -39,7 +39,7 @@ a.heading span {
 
 /* Headings ontop of individual boxes when hovered ease in colour border */
 a.heading span:hover {
-  border: 2px solid #a8b7ab;
+  border: 2px solid #EF626B;
   -webkit-transition: border 0.3s ease-in-out;
   -moz-transition: border 0.3s ease-in-out;
   transition: border 0.3s ease-in-out;
