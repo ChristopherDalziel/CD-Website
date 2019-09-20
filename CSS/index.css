@@ -8,6 +8,7 @@
 @import "blog.css";
 @import "media.css";
 @import "mobile-nav.css";
+@import "about-me.css";
 
 /* Font import */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
@@ -47,10 +48,4 @@
 
 a {
 	text-decoration: none;
-}
-
-/* Section height/width */
-section {
-	height: 80%;
-	width: 30%
 }

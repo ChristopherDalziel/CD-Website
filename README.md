@@ -7,6 +7,7 @@ The other beneift of having such a minimalistic home screen is that it's really 
 Home - Basic landing page, links to my professional socials, impactful image, greeting and a navigation bar with internal links.
 <br><br>
 About - Keeping with the impactful theme I have continue to show the full size background image of myself with an speel about myself.
+<br><br>
 Portfolio - My portfolio page will display my body of work and it is quite easy to customise by expending the grid system to be bigger, or creating a series of seperated grids below. For now I have kept the one grid display some of my current Coder Academy work as well as my previous work as a Photographer.
 <br><br>
 Blog - Hardcoded blog page with all the information you'd need, images, poster, date, and lorem placeholder text.
