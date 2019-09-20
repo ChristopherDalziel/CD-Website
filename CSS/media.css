@@ -27,7 +27,6 @@
 
   nav ul li a:hover {
     color: white;
-    background: #white;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -36,13 +35,13 @@
 
 /* Controlling overflow of text and images and blog, portfolio and about pages */
 @media only screen and (max-width: 1125px) {
-  #blog {
+  .blog {
     width: 95%;
     border: none;
     border-bottom: 1px solid black;
   }
 
-  #blog img {
+  .blog img {
     width: 400px;
     height: auto;
   }
@@ -159,13 +158,13 @@
   }
 
   /* Handing text and image overflow on blog page */
-  #blog {
+  .blog {
     width: 95%;
     border: none;
     border-bottom: 1px solid black;
   }
 
-  #blog img {
+  .blog img {
     width: 330px;
     height: auto;
   }
