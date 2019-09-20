@@ -24,6 +24,18 @@
   animation-fill-mode: forwards;
 }
 
+section a {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+section i {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 /* Animation for portfolio grid */
 .grid {
   animation: fadeInAnimation ease 1s;
@@ -31,7 +43,7 @@
 }
 
 /* Animation for blog page */
-#blog h1,
+.blog h1,
 h6,
 img,
 p {
@@ -41,14 +53,9 @@ p {
 }
 
 /* Animation for contact page */
-#contact h1 {
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
+#contact h1,
 fieldset {
-  animation: fadeInAnimation ease 4s;
+  animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -61,3 +68,4 @@ fieldset {
   100% {
     opacity: 1;
   }
+}
